@@ -21,7 +21,14 @@ const Header = () => {
 
   {/* Right: GitHub Icon */}
   <div className="ml-auto flex items-center">
+    <a
+    href="https://github.com/kanak227/AltCheck"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="GitHub Repository"
+  >
     <Github size={24} className="text-white cursor-pointer hover:text-blue-500 transition-all ease-in-out" />
+    </a>
   </div>
 </nav>
     </div>
