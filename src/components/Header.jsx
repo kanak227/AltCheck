@@ -1,6 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import {Github} from 'lucide-react'
+import logo from '/favicon.svg'
 
 const Header = () => {
   return (
@@ -8,7 +9,7 @@ const Header = () => {
       <nav className="h-[70px] bg-zinc-950 flex items-center text-white text-lg px-8 relative">
   {/* Left: Logo */}
   <div className="flex items-center flex-shrink-0 cursor-pointer">
-    <img className="h-8 w-8" src="../public/favicon.svg" alt="" />
+    <img className="h-8 w-8" src={logo} alt="" />
     <h1 className="text-xl font-bold ml-2">AltCheck</h1>
   </div>
 
