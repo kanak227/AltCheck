@@ -15,12 +15,6 @@ const Header = () => {
     <h1 className="text-xl font-bold ml-2">AltCheck</h1>
   </div>
 
-  {/* Center: Nav Items (hidden on mobile) */}
-  <div className="absolute left-1/2 top-1/2 -translate-x-1/2 -translate-y-1/2 flex gap-10
-                  max-md:hidden">
-    <Link to="/" className="hover:text-blue-500 transition-all ease-in-out">Home</Link>
-    <Link to="/about" className="hover:text-blue-500 transition-all ease-in-out">About</Link>
-  </div>
 
   {/* Right: GitHub Icon & Hamburger */}
   <div className="ml-auto flex items-center">

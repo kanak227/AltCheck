@@ -6,9 +6,9 @@ const Home = ({ inputUrl, setInputUrl, handleSubmit, loading, results }) => {
     <div className='home'>
       <section className='text-center p-8 h-[80vh]'>
         <h1 className="text-4xl sm:text-6xl md:text-[5rem] lg:text-[5rem] mt-[70px] font-bold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-blue-500 to-blue-800 drop-shadow-[0_0_4px_rgba(59,130,246,0.4)] w-3/4 mx-auto">
-          Test Your Site. Empower Every User
+          Test Your Site. Before it's Too Late
         </h1>
-        <p className='mt-5 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-zinc-600 to-blue-800'>Ready to scan your site? Drop the URL below</p>
+        <p className='mt-5 text-xl text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-zinc-600 to-blue-800'>Last but not the least check .. Drop any site URL</p>
 
         <form
           onSubmit={handleSubmit}

@@ -86,9 +86,9 @@ function App() {
   };
 
   return (
-    <>
+    <div>
       <Header />
-      <div className='text-white w-full min-h-screen p-5 '>
+      <div className='text-white w-full  p-5 '>
        
         <Routes>
           <Route
@@ -107,7 +107,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-    </>
+    </div>
   )
 }
 
